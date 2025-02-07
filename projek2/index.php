@@ -15,17 +15,17 @@
  <meta name="viewport" content="width=device-width, initial scale=1.0"> 
  <title>Mengenal Form </title> 
 <body> 
-<form action="form1.html" method="get"> 
+<form action="projek2.php" method="post"> 
 <form>
 <fieldset>
   <p><p>Silahkan isi data berikut :</p> 
- NISN : <input type="text" name="NISN"> <br /></p>
+ NISN : <input type="text" name="nisn"> <br /></p>
 
  <p>Nama Lengkap : <input type="text" name="nama"> <br /> </p>
 
- <p>Tempat Lahir : <input type="text" name="Tempat-Lahir"> <br /></p>
+ <p>Tempat Lahir : <input type="text" name="tempat_lahir"> <br /></p>
 
- <p>Tanggal Lahir : <input type="date" name="Tanggal-Lahir"> <br /></p>
+ <p>Tanggal Lahir : <input type="date" name="tanggal_lahir"> <br /></p>
 
  <p>Jenis Kelamin : <input type="radio" name="jenkel" value="laki-laki">Laki-laki  <input type="radio" name="jenkel" value="perempuan">Perempuan  <br /> </p>
 
@@ -41,7 +41,7 @@
 
 <p><p>ALAMAT :</p>
 <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea> <br /></p>
-<p>Asal Sekolah : <input type="text" name="Asal Sekolah"> <br />
+<p>Asal Sekolah : <input type="text" name="asal_sekolah"> <br />
 <p>Pilih jurusan 1:</p>
 <select name="select1">
 <option value="jurusan">PENGEMBANGAN PERANGKAT LUNAK & GIM</option>

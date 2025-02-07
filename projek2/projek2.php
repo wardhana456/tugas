@@ -14,7 +14,7 @@
         <td>NISN </td>
         <td>: </td>
         <td>
-            <?= $_POST['NISN']?>
+            <?= $_POST['nisn']?>
         </td>
     </tr>
 
@@ -30,7 +30,7 @@
         <td>Tempat Lahir </td>
         <td>: </td>
         <td>
-            <?= $_POST['Tempat-Lahir']?>
+            <?= $_POST['tempat_lahir']?>
         </td>
     </tr>
 
@@ -38,7 +38,7 @@
         <td>Tanggal Lahir </td>
         <td>: </td>
         <td>
-            <?= $_POST['Tanggal-Lahir']?>
+            <?= $_POST['tanggal_lahir']?>
         </td>
     </tr>
 
@@ -66,7 +66,13 @@
             <?= $_POST['alamat']?>
         </td>
     </tr>
-
+    <tr>
+        <td>Asal Sekolah </td>
+        <td>: </td>
+        <td>
+            <?= $_POST['asal_sekolah']?>
+        </td>
+    </tr>
     <tr>
         <td>Pilih jurusan 1 </td>
         <td>: </td>
