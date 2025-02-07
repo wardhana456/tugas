@@ -19,12 +19,16 @@
 <form>
 <fieldset>
   <p><p>Silahkan isi data berikut :</p> 
- NISN : <input type="text" NISN="NISN"> <br /></p>
+ NISN : <input type="text" name="NISN"> <br /></p>
 
  <p>Nama Lengkap : <input type="text" name="nama"> <br /> </p>
- <p>Tempat Lahir : <input type="text" Tempat Lahir="Tempat Lahir"> <br /></p>
- <p>Tangal Lahir : <input type="date" Tanggal Lahir="Tempat Lahir"> <br /></p>
+
+ <p>Tempat Lahir : <input type="text" name="Tempat-Lahir"> <br /></p>
+
+ <p>Tanggal Lahir : <input type="date" name="Tanggal-Lahir"> <br /></p>
+
  <p>Jenis Kelamin : <input type="radio" name="jenkel" value="laki-laki">Laki-laki  <input type="radio" name="jenkel" value="perempuan">Perempuan  <br /> </p>
+
  <p>Agama : <select id="agama" name="agama">
     <option value="Islam">Islam </option>
     <option value="Kristen">Kristen </option>
@@ -34,11 +38,12 @@
     <br />
     </select>
 <br/></p>
-<p><p> ALAMAT:</p>
+
+<p><p>ALAMAT :</p>
 <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea> <br /></p>
-<p>Asal Sekolah : <input type="text" Asal Sekolah="Asal Sekolah"> <br />
+<p>Asal Sekolah : <input type="text" name="Asal Sekolah"> <br />
 <p>Pilih jurusan 1:</p>
-<select name="select">
+<select name="select1">
 <option value="jurusan">PENGEMBANGAN PERANGKAT LUNAK & GIM</option>
 <option value="jurusan">TEKNIK JARINGAN KOMPUTER & TELEKOMUNIKASI</option>
 <option value="jurusan">DESAIN KOMUNIKASI VISUAL</option>
@@ -50,8 +55,9 @@
 <option value="jurusan">BROADCASTING & PERFILEMAN</option>
 </select>
 <br/></p>
+
 <p><p>Pilih jurusan 2:</p>
-<select name="select">
+<select name="select2">
 <option value="jurusan">PENGEMBANGAN PERANGKAT LUNAK & GIM</option>
 <option value="jurusan">TEKNIK JARINGAN KOMPUTER & TELEKOMUNIKASI</option>
 <option value="jurusan">DESAIN KOMUNIKASI VISUAL</option>
@@ -63,6 +69,7 @@
 <option value="jurusan">BROADCASTING & PERFILEMAN</option>
 </select>
 <br/></p>
+
 <p><p>Ekstrakulikuler yang diminati :</p>
  <input type="checkbox" name="OSIS">OSIS
  <input type="checkbox" name="PRAMUKA">PRAMUKA 
@@ -75,7 +82,6 @@
  <input type="checkbox" name="TEATER">TEATER
  <input type="checkbox" name="LASKAR HIJAU">LASKAR HIJAU
  <input type="checkbox" name="GERAKAN DISIPLIN SEKOLAH">GERAKAN DISIPLIN SEKOLAH(GDS)
-
  <br /><br /> </p>
 <p> <button type="submit" name="submit" value="simpan">Simpan</button> </form> 
 </p>
