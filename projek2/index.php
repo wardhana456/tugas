@@ -11,25 +11,25 @@ scale=1.0">
 </head>
 
 <body>
-      <form action="../projek2.php" method="POST">
+      <form action="projek2.php" method="POST">
             <fieldset>
                   <legend>
                         <h1>Formulir Peserta </h1>
                   </legend>
                   <p>Silahkan isi data berikut :</p>
-                  NIS : <input type="number" name="nisn">
+                  NIS : <input type="number" name="NIS">
                   </p>
                   <p>
 
-                        Nama Lengkap : <input type="text" name="nama">
+                        Nama Lengkap : <input type="text" name="Nama">
                   </p>
                   <p>
 
-                        Tempat Lahir : <input type="text" name="tempat_lahir">
+                        Tempat Lahir : <input type="text" name="TempatLahir">
                   </p>
                   <p>
 
-                        Tanggal Lahir : <input type="date" name="tanggal_lahir">
+                        Tanggal Lahir : <input type="date" name="TanggalLahir">
                   </p>
                   <p>
                         Jenis Kelamin :
@@ -50,13 +50,13 @@ scale=1.0">
                   <p>
 
                   <p>ALAMAT :</p>
-                  <textarea name="alamat" id="Alamat" cols="30" rows="10"></textarea>
+                  <textarea name="Alamat" id="Alamat" cols="30" rows="10"></textarea>
                   </p>
                   <p>
-                        Asal Sekolah : <input type="text" name="asal_sekolah">
+                        Asal Sekolah : <input type="text" name="AsalSekolah">
                   </p>
                   <p>
-                        Pilih Jurusan 1 : <select id="Pil Jurusan 1" name="select1">
+                        Pilih Jurusan 1 : <select id="Pil Jurusan 1" name="PilJurusan1">
                               <option value="TIDAK MEMILIH">TIDAK MEMILIH</option>
                               <option value="pplg">PENGEMBANGAN PERANGKAT LUNAK & GIM
                               </option>
@@ -74,7 +74,7 @@ scale=1.0">
                   </p>
                   <p>
 
-                        Pilih Jurusan 2 : <select id="Pil Jurusan 2" name="select2">
+                        Pilih Jurusan 2 : <select id="Pil Jurusan 2" name="PilJurusan2">
                               <option value="TIDAK MEMILIH">TIDAK MEMILIH</option>
                               <option value="pplg">PENGEMBANGAN PERANGKAT LUNAK & GIM
                               </option>
